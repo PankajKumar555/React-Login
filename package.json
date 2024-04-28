@@ -1,8 +1,7 @@
 {
-  "name": "stopwatch",
+  "name": "react-login",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PankajKumar555.github.io/react-login-page",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.2.0",
@@ -11,10 +10,8 @@
     "web-vitals": "^3.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "npm install && react-scripts --openssl-legacy-provider build",
+    "build": "npm install && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
